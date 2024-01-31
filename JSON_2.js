@@ -1,4 +1,4 @@
-var ajaxCall = (key, url, prompt) => {
+var ajaxCall = (key, url) => {
   return new Promise((resolve, reject) => {
     $.ajax({
       url: url,
